@@ -52,16 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Portfolio specific colors
+				'red-primary': 'hsl(var(--red-primary))',
+				'red-secondary': 'hsl(var(--red-secondary))',
+				'dark-bg': 'hsl(var(--dark-bg))',
+				'card-bg': 'hsl(var(--card-bg))',
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))'
+			},
+			backgroundImage: {
+				'red-gradient': 'linear-gradient(135deg, hsl(var(--red-gradient-start)), hsl(var(--red-gradient-end)))',
+				'red-gradient-radial': 'radial-gradient(circle, hsl(var(--red-gradient-start)), hsl(var(--red-gradient-end)))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
