@@ -4,11 +4,9 @@ import { TechIcon } from "./TechIcon";
 export const PortfolioHero = () => {
   return (
     <div className="relative min-h-screen bg-portfolio-gradient text-text-primary overflow-hidden">
-      {/* Background decorative elements */}
+      {/* Background decorative elements - removed red shadows */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-16 h-16 md:w-32 md:h-32 bg-red-primary/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-40 right-20 w-20 h-20 md:w-40 md:h-40 bg-red-secondary/15 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/3 w-12 h-12 md:w-24 md:h-24 bg-red-primary/10 rounded-full blur-2xl"></div>
+        {/* Keeping minimal background effects */}
       </div>
 
       <div className="relative container mx-auto px-4 md:px-6 py-8 md:py-12">
@@ -57,9 +55,9 @@ export const PortfolioHero = () => {
         {/* About Section */}
         <div className="mt-12 md:mt-20 space-y-8 md:space-y-12">
           <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-            {/* Illustration */}
+            {/* Illustration - increased size */}
             <div className="flex justify-center order-last lg:order-first">
-              <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <div className="relative w-80 h-80 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px]">
                 <img 
                   src="/lovable-uploads/d34ed906-e609-437d-9870-b09414297955.png"
                   alt="Developer illustration"
