@@ -52,15 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Portfolio specific colors
+				// Portfolio specific colors and gradients
 				'red-primary': 'hsl(var(--red-primary))',
 				'red-secondary': 'hsl(var(--red-secondary))',
 				'dark-bg': 'hsl(var(--dark-bg))',
 				'card-bg': 'hsl(var(--card-bg))',
 				'text-primary': 'hsl(var(--text-primary))',
-				'text-secondary': 'hsl(var(--text-secondary))'
+				'text-secondary': 'hsl(var(--text-secondary))',
+				'gradient-top': 'hsl(var(--gradient-top))',
+				'gradient-bottom': 'hsl(var(--gradient-bottom))'
 			},
 			backgroundImage: {
+				'portfolio-gradient': 'linear-gradient(to bottom, hsl(var(--gradient-top)), hsl(var(--gradient-bottom)))',
 				'red-gradient': 'linear-gradient(135deg, hsl(var(--red-gradient-start)), hsl(var(--red-gradient-end)))',
 				'red-gradient-radial': 'radial-gradient(circle, hsl(var(--red-gradient-start)), hsl(var(--red-gradient-end)))'
 			},

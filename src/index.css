@@ -6,8 +6,12 @@
 
 @layer base {
   :root {
+    /* Portfolio gradient colors from design */
+    --gradient-top: 12 100% 3%;    /* #0C0000 */
+    --gradient-bottom: 359 99% 22%; /* #720002 */
+    
     /* Portfolio dark theme */
-    --background: 0 0% 5%;
+    --background: 12 100% 3%;
     --foreground: 0 0% 95%;
 
     --card: 0 0% 8%;
@@ -42,7 +46,7 @@
     --red-secondary: 15 85% 45%;
     --red-gradient-start: 0 72% 51%;
     --red-gradient-end: 15 85% 45%;
-    --dark-bg: 0 0% 5%;
+    --dark-bg: 12 100% 3%;
     --card-bg: 0 0% 8%;
     --text-primary: 0 0% 95%;
     --text-secondary: 0 0% 75%;
@@ -66,7 +70,10 @@
 
   /* Portfolio sempre usa o tema escuro */
   .light {
-    --background: 0 0% 5%;
+    --gradient-top: 12 100% 3%;    /* #0C0000 */
+    --gradient-bottom: 359 99% 22%; /* #720002 */
+    
+    --background: 12 100% 3%;
     --foreground: 0 0% 95%;
 
     --card: 0 0% 8%;
