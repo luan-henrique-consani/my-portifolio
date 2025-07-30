@@ -16,12 +16,11 @@ export const PortfolioHero = () => {
             <div>
               <p className="text-text-secondary text-base md:text-lg mb-2">Olá, me chamo Luan Consani</p>
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                Desenvolvedor
-                  
-
-                <span className="text-red-primary">FULLSTACK</span>
+                <span className="text-red-primary text-4xl">Desenvolvedor</span>
+                <br />
+                <span className="text-red-primary"><strong>FULLSTACK</strong></span>
               </h1>
-              <p className="text-text-secondary text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
+              <p className="text-text-secondary text-base mb-3 md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
                 com experiência em landing pages, criação de e-commerce, sites corporativos.
                   
 
