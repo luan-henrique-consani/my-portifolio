@@ -18,14 +18,7 @@ export const TechIcon = ({ name, className = "w-12 h-12" }: TechIconProps) => {
       </svg>
     ),
     react: (
-      <svg viewBox="0 0 256 256" className={className}>
-        <g fill="#61DAFB">
-          <path d="M210.483 73.824a171.49 171.49 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621 6.238-30.281 2.16-54.676-11.769-62.708-13.355-7.7-35.196.329-57.254 19.526a171.23 171.23 0 0 0-6.375 5.848 155.866 155.866 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233 50.33 10.957 46.379 33.89 51.995 62.588a170.974 170.974 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.204 83.404 0 98.787 0 114.832c0 16.716 18.644 32.717 45.516 42.089a172.252 172.252 0 0 0 6.789 2.028c-.637 3.006-1.182 6.025-1.622 9.036-4.982 28.814-1.217 51.619 12.04 59.327 13.622 7.93 36.725-.491 59.273-19.855a164.825 164.825 0 0 0 5.084-4.838 169.504 169.504 0 0 0 5.68 5.391c21.92 18.96 44.455 26.669 57.436 18.999 13.329-7.865 17.531-31.581 12.566-59.678a167.426 167.426 0 0 0-1.088-4.72 153.18 153.18 0 0 0 6.521-2.068C237.663 147.808 256 132.132 256 114.832c0-16.217-17.868-31.218-45.517-40.208zM128.001 144.646c-8.607 0-15.814-6.876-15.814-15.814 0-8.938 7.207-15.814 15.814-15.814s15.814 6.876 15.814 15.814c0 8.938-7.207 15.814-15.814 15.814z"/>
-          <ellipse cx="128" cy="128.832" rx="85" ry="37" fill="none" stroke="#61DAFB" strokeWidth="8"/>
-          <ellipse cx="128" cy="128.832" rx="85" ry="37" fill="none" stroke="#61DAFB" strokeWidth="8" transform="rotate(60 128 128.832)"/>
-          <ellipse cx="128" cy="128.832" rx="85" ry="37" fill="none" stroke="#61DAFB" strokeWidth="8" transform="rotate(120 128 128.832)"/>
-        </g>
-      </svg>
+      <img src="/icons/React.svg" alt="React" className={className} />
     ),
     tailwind: (
       <svg viewBox="0 0 256 154" className={className}>
@@ -39,35 +32,19 @@ export const TechIcon = ({ name, className = "w-12 h-12" }: TechIconProps) => {
       </svg>
     ),
     n8n: (
-      <svg viewBox="0 0 256 256" className={className}>
-        <rect width="256" height="256" rx="28" fill="#EA4B71"/>
-        <path fill="white" d="M76 76v104h24V120h56v60h24V76H76zm24 24h56v16H100V100z"/>
-      </svg>
+      <img src="/icons/n8n.svg" alt="n8n" className={className} />
     ),
     brain: (
-      <svg viewBox="0 0 24 24" fill="none" className={className}>
-        <path stroke="currentColor" strokeWidth="2" d="M9.5 2A2.5 2.5 0 0 0 7 4.5v0A2.5 2.5 0 0 0 4.5 7v0A2.5 2.5 0 0 0 2 9.5V16a6 6 0 0 0 6 6h0a6 6 0 0 0 6-6V9a5 5 0 0 0-5-5h0a2.5 2.5 0 0 0-2.5 2.5z"/>
-        <path stroke="currentColor" strokeWidth="2" d="M14.5 2A2.5 2.5 0 0 1 17 4.5v0A2.5 2.5 0 0 1 19.5 7v0A2.5 2.5 0 0 1 22 9.5V16a6 6 0 0 1-6 6h0a6 6 0 0 1-6-6V9a5 5 0 0 1 5-5h0a2.5 2.5 0 0 1 2.5 2.5z"/>
-        <path stroke="currentColor" strokeWidth="2" d="M9 12v4"/>
-        <path stroke="currentColor" strokeWidth="2" d="M15 12v4"/>
-      </svg>
+      <img src="/icons/Brain.svg" alt="Brain" className={className} />
     ),
     bolt: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
-        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-      </svg>
+      <img src="/icons/Raio.svg" alt="Bolt" className={className} />
     ),
     puzzle: (
-      <svg viewBox="0 0 24 24" fill="none" className={className}>
-        <path stroke="currentColor" strokeWidth="2" d="M19.439 7.85c-.049.322-.059.648-.026.975.056.458.142.908.25 1.349.16.65.407 1.271.733 1.848.35.62.807 1.17 1.349 1.623.6.493 1.334.84 2.13 1.006.708.148 1.44.169 2.158.061l.036-.007c.652-.098 1.28-.317 1.842-.637.615-.347 1.145-.82 1.553-1.389.45-.627.791-1.35.997-2.121.188-.705.24-1.445.152-2.176-.093-.774-.343-1.52-.732-2.186-.423-.723-1.016-1.332-1.739-1.785-.653-.41-1.403-.656-2.184-.717-.78-.062-1.57.045-2.309.314-.72.262-1.377.667-1.92 1.183-.568.54-1.008 1.201-1.29 1.937z"/>
-        <path stroke="currentColor" strokeWidth="2" d="M12 7.5v4h4.5m0 0h4.5v4.5M16.5 11.5v4.5H12v4.5H7.5v-4.5H3v-4.5h4.5V7.5H12"/>
-      </svg>
+      <img src="/icons/Puzzle.svg" alt="Puzzle" className={className} />
     ),
     analytics: (
-      <svg viewBox="0 0 24 24" fill="none" className={className}>
-        <path stroke="currentColor" strokeWidth="2" d="M3 3v18h18"/>
-        <path stroke="currentColor" strokeWidth="2" d="M7 16v-4m4 4V8m4 8V4"/>
-      </svg>
+      <img src="/icons/Analise.svg" alt="Analytics" className={className} />
     ),
     github: (
       <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
