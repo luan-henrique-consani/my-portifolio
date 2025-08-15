@@ -223,11 +223,11 @@ export const PortfolioHero = () => {
             <TechIcon name="instagram" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">@luanconsani28</span>
           </a>
-          <a href="https://github.com/luan-henrique-consani" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
+          <a href="https://www.linkedin.com/in/luan-henrique-consani-coelho-b9b66a219/" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
             <TechIcon name="linkedin" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">Luan Henrique Consani</span>
           </a>
-          <a href="https://www.linkedin.com/in/luan-henrique-consani-coelho-b9b66a219/" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
+          <a href="https://github.com/luan-henrique-consani" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
             <TechIcon name="github" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">luan-henrique-consani</span>
           </a>
