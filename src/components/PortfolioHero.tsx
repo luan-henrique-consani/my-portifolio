@@ -210,24 +210,24 @@ export const PortfolioHero = () => {
             "Enquanto muitos ainda fazem manualmente, você pode automatizar com inteligência."
           </blockquote>
 
-          <Button
+          <a href="https://wa.me/5543991504447?text=Ol%C3%A1%20gostei%20do%20seu%20portifolio%20e%20gostaria%20de%20or%C3%A7ar%20um%20site!"><Button
             className="mt-6 md:mt-8 bg-red-primary hover:bg-red-secondary text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg rounded-lg font-semibold transition-all duration-300 hover:scale-105"
           >
             Me chame já!
-          </Button>
+          </Button></a>
         </div>
 
         {/* Footer Social Links */}
         <div className="mt-12 md:mt-20 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 px-4 md:px-0">
-          <a href="#" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
+          <a href="https://www.instagram.com/luanconsani28/" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
             <TechIcon name="instagram" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">@luanconsani28</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
+          <a href="https://github.com/luan-henrique-consani" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
             <TechIcon name="linkedin" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">Luan Henrique Consani</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
+          <a href="https://www.linkedin.com/in/luan-henrique-consani-coelho-b9b66a219/" className="flex items-center space-x-2 text-text-secondary hover:text-red-primary transition-colors">
             <TechIcon name="github" className="w-5 h-5 md:w-6 md:h-6" />
             <span className="text-sm md:text-base">luan-henrique-consani</span>
           </a>
